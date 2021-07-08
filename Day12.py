@@ -45,6 +45,7 @@ while correct_answer:
     if compare(answer, guess_A, guess_B) == True:
         count += 1
         clear()
+        print(logo_higher_lower)
         print(f"You're right!. Current score: {count}")
         new_player = player_A
         player_A = player_B
